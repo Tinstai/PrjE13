@@ -1,0 +1,25 @@
+{
+  "name": "e13",
+  "version": "1.0.0",
+  "description": "Практическая работа 13.7 (HW-03)",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "servedev": "set NODE_ENV=development&&webpack serve",
+    "servepro": "set NODE_ENV=production&&webpack serve",
+    "build": "webpack",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonids Jofe",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
